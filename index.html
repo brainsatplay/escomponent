@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <title>ESCode Component Template</title>
+</head>
+<body>
+</body>
+<script type="module">
+    
+
+    // --------------------- Import ESCompose ---------------------
+    import * as escompose from './dependencies/escompose/index.esm.js'
+    import * as escFile from './index.esc.js'
+    const esc = escFile // {__compose: './index.esc.js'} //{ __compose: { __object: escFile, __src: './index.esc.js' } }
+
+    // --------------------- Declare Properties to Apply ---------------------
+    const properties = { 
+        __parent: document.body // Attach to DOM
+    }
+
+    // --------------------- Specify Options ---------------------
+    const options = {
+        await: false,
+        utilities: {
+
+        },
+    }
+
+
+    // --------------------- Instantiate the Component ---------------------
+    let component = escompose.create(
+        esc, 
+        properties,
+        options
+    )
+
+    console.log('ES Component', component)
+
+</script>
+
+</html>
