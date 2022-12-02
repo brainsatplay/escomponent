@@ -1,0 +1,45 @@
+{
+    "name": "escode-component-template",
+    "version": "0.0.1",
+    "description": "A basic ES Component for displaying the time elapsed since the application was initialized.",
+    "keywords": [
+        "graphscript",
+        "escomponent",
+        "ui",
+        "browser"
+    ],
+    "browser": "dist/index.esm.js",
+    "type": "module",
+    "license": "AGPL-3.0-or-later",
+    "files": [
+        "dist"
+    ],
+    "homepage": "https://github.com/brainsatplay/escomponent#readme",
+    "bugs": {
+        "url": "https://github.com/brainsatplay/escomponent/issues",
+        "email": "contact@brainsatplay.com"
+    },
+    "contributors": [
+        {
+            "name": "Garrett Flynn",
+            "email": "garrett@brainsatplay.com",
+            "url": "http://garrettflynn.com/"
+        }
+    ],
+    "funding": [
+        {
+            "type": "opencollective",
+            "url": "https://opencollective.com/brainsatplay"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/brainsatplay/escomponent.git"
+    },
+    "devDependencies": {
+        "tinybuild": "0.3.190"
+    },
+    "scripts": {
+        "build": "tinybuild"
+    }
+}
