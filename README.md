@@ -51,7 +51,7 @@ This allows you to run the default function of an ESC using the arguments specif
 ```json
 {
     "__trigger": [true],
-    "__compose": "./components/trigger.js'
+    "__compose": "./components/trigger.js"
 }
 ```
 
@@ -59,9 +59,8 @@ This allows you to run the default function of an ESC using the arguments specif
 This allows you to specify an animation loop for your component.
 ```json
 {
-    "__animate": 10, // Runs 10 times every second
-    // "__animate": true, // Runs on the default animation loop
-    "__compose": "./components/time.js'
+    "__animate": 10,
+    "__compose": "./components/time.js"
 }
 ```
 
