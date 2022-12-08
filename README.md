@@ -64,6 +64,9 @@ This allows you to specify an animation loop for your component.
 }
 ```
 
+## Roadmap
+- Declare ESC with similar detail to [ESM](https://tc39.es/ecma262/#sec-modules).
+
 ## Acknowledgments
 This specification has been drafted by [Garrett Flynn](https://github.com/garrettmflynn) and [Joshua Brewster](https://github.com/joshbrew), who use contract work and community contributions through [Open Collective](https://opencollective.com/brainsatplay) to support themselves.
 
